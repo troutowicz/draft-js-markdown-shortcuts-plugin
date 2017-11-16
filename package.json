@@ -3,6 +3,7 @@
   "version": "0.3.0",
   "description": "A DraftJS plugin for supporting Markdown syntax shortcuts",
   "main": "lib/index.js",
+  "module": "src/index.js",
   "scripts": {
     "eslint": "node_modules/.bin/eslint .",
     "build": "npm run clean && npm run build:js",
